@@ -4,3 +4,4 @@
 datetime
 streamlit
 python-dotenv
+google-genai
