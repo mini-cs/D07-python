@@ -1,0 +1,6 @@
+# lotto.py는 표준 라이브러리(random, tkinter, datetime)만 사용하므로 설치할 패키지가 없습니다.
+# Python 3.10 기준 (conda create -n test_1 python=3.10 -y)
+
+datetime
+streamlit
+python-dotenv

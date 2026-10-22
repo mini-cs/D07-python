@@ -1,0 +1,15 @@
+# 비밀 키 (API Key 등) 파일은 git에 올리지 않도록 .gitignore에 추가합니다.
+# .env.example 파일을 만들어서 실제 키를 넣지 않고도 프로젝트를 실행할 수 있도록 합니다.
+.env
+
+# 가상환경 디렉토리도 git에 올리지 않도록 합니다.
+.venv/
+
+# Python 관련
+__pycache__/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# CLAUDE 관련
+CLAUDE.local.md
